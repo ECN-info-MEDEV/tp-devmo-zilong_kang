@@ -14,5 +14,16 @@
     <string name="dessert">Dessert \ncake</string>
     <string name="delivering">Delivering</string>
     <string name="finished">Finished</string>
+    <string name="information">Informations</string>
+    <string name="username">Philipe Antoine</string>
+    <string name="saveInformation">Save changes</string>
+    <string name="address">Delivery Address</string>
+    <string name="infoAddress">\n    1 Rue de la Noë, 44300 Nantes\n    Point1, Building E\n</string>
+    <string name="infoTime">\n    ASAP(10-20min)\n</string>
+    <string name="infoPay">\n    Apple Pay\n</string>
+    <string name="txt_pay">Payment Method</string>
+    <string name="devTime">Delivery Time Preference</string>
+
+
 
 </resources>

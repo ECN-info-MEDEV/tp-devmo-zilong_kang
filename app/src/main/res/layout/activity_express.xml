@@ -95,7 +95,7 @@
                 android:layout_width="125dp"
                 android:layout_height="154dp"
                 android:layout_marginStart="16dp"
-                app:srcCompat="@mipmap/img" />
+                app:srcCompat="@mipmap/plat" />
 
             <TextView
                 android:id="@+id/food1"
@@ -139,7 +139,7 @@
                 android:layout_width="125dp"
                 android:layout_height="154dp"
                 android:layout_marginStart="16dp"
-                app:srcCompat="@mipmap/img"  />
+                app:srcCompat="@mipmap/plat"  />
 
             <TextView
                 android:id="@+id/food2"
@@ -181,7 +181,7 @@
                 android:layout_width="125dp"
                 android:layout_height="154dp"
                 android:layout_marginStart="16dp"
-                app:srcCompat="@mipmap/img"  />
+                app:srcCompat="@mipmap/plat"  />
 
             <TextView
                 android:id="@+id/food3"
