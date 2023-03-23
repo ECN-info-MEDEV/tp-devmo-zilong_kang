@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="#EF0808"
     tools:context=".MainActivity">
 
     <HorizontalScrollView
@@ -21,44 +21,48 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <RadioButton
+            <Button
                 android:id="@+id/rb_one"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:button="@null"
+                android:backgroundTint="#E80808"
                 android:checked="true"
                 android:gravity="center"
                 android:text="@string/mainPage_nav1" />
 
-            <RadioButton
+            <Button
                 android:id="@+id/rb_two"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:button="@null"
+                android:backgroundTint="@color/gris"
                 android:gravity="center"
                 android:text="@string/mainPage_nav2" />
 
-            <RadioButton
+            <Button
                 android:id="@+id/rb_three"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:button="@null"
+                android:backgroundTint="@color/gris"
                 android:gravity="center"
                 android:text="@string/mainPage_nav3" />
 
-            <RadioButton
+            <Button
                 android:id="@+id/rb_four"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:button="@null"
+                android:backgroundTint="@color/gris"
                 android:gravity="center"
                 android:text="@string/mainPage_nav4" />
         </RadioGroup>
@@ -82,7 +86,7 @@
             android:layout_width="match_parent"
             android:layout_height="172dp"
             android:contentDescription="@string/mainPage_firstPlate_name"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            android:src="@mipmap/chicken" />
 
         <TextView
             android:id="@+id/textView1"
@@ -125,7 +129,7 @@
             android:layout_width="match_parent"
             android:layout_height="172dp"
             android:contentDescription="@string/mainPage_secondPlate_name"
-            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+            android:src="@mipmap/pizza" />
 
         <TextView
             android:id="@+id/textView4"
@@ -152,22 +156,21 @@
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="467dp"
-        android:layout_height="60dp"
+        android:layout_width="429dp"
+        android:layout_height="44dp"
         android:layout_marginStart="2dp"
         android:layout_marginEnd="2dp"
         android:contentDescription="@string/navbar_bottom"
+        android:src="@mipmap/nav_bottom"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/nav_bottom"
-        tools:srcCompat="@drawable/nav_bottom" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="16dp"
         android:text="@string/deliver_to"
         android:textSize="20sp"
@@ -190,15 +193,14 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="48dp"
-        android:layout_height="41dp"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="20dp"
         android:contentDescription="@string/shopping_cart"
+        android:src="@mipmap/shopping_cart"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/shopping_cart"
-        tools:srcCompat="@drawable/shopping_cart" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView8"
