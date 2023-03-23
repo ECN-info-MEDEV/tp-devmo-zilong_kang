@@ -3,4 +3,20 @@
     <string name="payment">Payment</string>
     <string name="str_time_left">left to order</string>
     <string name="time">4:24</string>
+    <string name="mainPage_nav1">Main</string>
+    <string name="mainPage_nav2">Entree</string>
+    <string name="mainPage_nav3">Dessert</string>
+    <string name="mainPage_nav4">Explore</string>
+    <string name="mainPage_description_pic2">Pizza</string>
+    <string name="mainPage_firstPlate_name">Chicken</string>
+    <string name="mainPage_firstPlate_detailName">French • chicken</string>
+    <string name="mainPage_firstPlate_detail">200-250cal • 150-200g • ☆4.8</string>
+    <string name="mainPage_secondPlate_name">Pizza</string>
+    <string name="mainPage_secondPlate_detailName">Italian • Pizza</string>
+    <string name="mainPage_secondPlate_detail">200-250cal • 200-220g • ☆4.7</string>
+    <string name="navbar_bottom">navBar_bottom</string>
+    <string name="deliver_to"><![CDATA[Deliver to ->]]></string>
+    <string name="deliver_address">Centrale Nantes</string>
+    <string name="shopping_cart">shopping cart</string>
+    <string name="discover">Discover</string>
 </resources>
