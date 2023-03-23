@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="buttom_express">#DC6464</color>
     <color name="item_backgound">#E1A7A7</color>
+    <color name="line">#B6B6B6</color>
 </resources>

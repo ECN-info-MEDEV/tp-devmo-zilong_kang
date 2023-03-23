@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PastOrderActicity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:text="@string/pastOrder"
+        android:textSize="28sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_below="@+id/title"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/yourOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="99dp"
+        android:layout_weight="1"
+        android:text="@string/yourOrder"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="590dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginRight="5dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/firstItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/item_background">
+
+            <TextView
+                android:id="@+id/txt_menu1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/menu"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/money"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_menu1"
+                android:layout_alignLeft="@+id/txt_menu1"
+                android:text="@string/date"></TextView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@+id/txt_date"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/line" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="78dp"
+                android:layout_height="101dp"
+                android:layout_below="@+id/txt_date"
+
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="-1dp"
+                app:srcCompat="@mipmap/img" />
+
+            <TextView
+                android:id="@+id/food1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="158dp"
+                android:layout_marginTop="79dp"
+                android:text="@string/entree"
+                android:textSize="15dp"></TextView>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="78dp"
+                android:layout_height="101dp"
+                android:layout_below="@+id/image1"
+
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="-1dp"
+                app:srcCompat="@mipmap/img" />
+
+            <TextView
+                android:id="@+id/food2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="158dp"
+                android:layout_marginTop="185dp"
+                android:text="@string/main"
+                android:textSize="15dp"></TextView>
+
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="78dp"
+                android:layout_height="101dp"
+                android:layout_below="@+id/image2"
+
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="-1dp"
+                app:srcCompat="@mipmap/img" />
+
+            <TextView
+                android:id="@+id/food3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="162dp"
+                android:layout_marginTop="277dp"
+                android:text="@string/dessert"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/state1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="311dp"
+                android:layout_marginTop="321dp"
+                android:layout_marginLeft="20dp"
+                android:text="@string/delivering"
+                android:textSize="15dp"></TextView>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/secondItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/item_background">
+
+            <TextView
+                android:id="@+id/txt_menu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/menu"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/money"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_date2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_menu2"
+                android:layout_alignLeft="@+id/txt_menu2"
+                android:text="@string/date"></TextView>
+
+            <View
+                android:id="@+id/line2"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@+id/txt_date2"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/line" />
+
+            <TextView
+                android:id="@+id/state2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="311dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/finished"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_below="@+id/line2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="..."
+                android:textSize="30sp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ThirdItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/last_item_background">
+
+            <TextView
+                android:id="@+id/txt_menu3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/menu"
+                android:textSize="20sp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/money"
+                android:textSize="20sp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_date3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_menu3"
+                android:layout_alignLeft="@+id/txt_menu3"
+                android:text="@string/date"></TextView>
+
+            <View
+                android:id="@+id/line3"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@+id/txt_date3"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@color/line" />
+
+            <TextView
+                android:id="@+id/state3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="311dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="5dp"
+                android:text=" "
+                android:textSize="15dp"></TextView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

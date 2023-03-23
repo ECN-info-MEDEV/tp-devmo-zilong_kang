@@ -4,4 +4,15 @@
     <string name="str_time_left">left to order</string>
     <string name="time">4:24</string>
     <string name="food">Califonia Roll\ncrab cucumber</string>
+    <string name="pastOrder">Past Orders</string>
+    <string name="yourOrder">Your Orders</string>
+    <string name="menu">Menu</string>
+    <string name="date">03/12/2023</string>
+    <string name="money">€4.99</string>
+    <string name="entree">Entree \ncrab \& cucumber</string>
+    <string name="main">Main \nchicken \& French fries</string>
+    <string name="dessert">Dessert \ncake</string>
+    <string name="delivering">Delivering</string>
+    <string name="finished">Finished</string>
+
 </resources>
