@@ -75,7 +75,7 @@
                 android:textSize="15sp" />
         </LinearLayout>
 
-        <TextView
+        <EditText
             android:id="@+id/info_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -92,12 +92,12 @@
             android:text="@string/devTime"
             android:textSize="20sp" />
 
-        <TextView
+        <Spinner
             android:id="@+id/dev_time"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:background="@drawable/information_bg"
-            android:text="@string/infoTime"
+            android:entries="@array/dev_time"
             android:textSize="15sp" />
 
         <TextView
@@ -107,23 +107,25 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
             android:text="@string/txt_pay"
+
             android:textSize="20sp" />
 
-        <TextView
+        <Spinner
             android:id="@+id/info_pay"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="51dp"
             android:background="@drawable/information_bg"
-            android:text="@string/infoPay"
+            android:entries="@array/pay_method"
             android:textSize="15sp" />
 
         <android.widget.Button
-            android:id="@+id/button"
+            android:id="@+id/saveInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
             android:background="@color/buttom_express"
             android:text="@string/saveInformation"
+            android:onClick="saveInfo"
             android:textColor="#ffffff" />
     </LinearLayout>
 

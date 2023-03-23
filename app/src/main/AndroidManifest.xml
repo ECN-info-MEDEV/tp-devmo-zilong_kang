@@ -12,7 +12,7 @@
         android:theme="@style/Theme.DEVMO"
         tools:targetApi="31">
         <activity
-            android:name=".ImformationActivity"
+            android:name=".InformationActivity"
             android:exported="false" />
         <activity
             android:name=".PastOrderActicity"
