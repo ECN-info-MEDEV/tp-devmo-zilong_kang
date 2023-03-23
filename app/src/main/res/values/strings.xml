@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">DEVMO</string>
-    <string name="payment">Payment</string>
+    <string name="payment">Payment 4.99€</string>
     <string name="str_time_left">left to order</string>
     <string name="time">4:24</string>
+    <string name="food">Califonia Roll\ncrab cucumber</string>
 </resources>
