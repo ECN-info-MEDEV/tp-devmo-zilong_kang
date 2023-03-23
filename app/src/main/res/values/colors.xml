@@ -10,4 +10,6 @@
     <color name="buttom_express">#DC6464</color>
     <color name="item_backgound">#E1A7A7</color>
     <color name="line">#B6B6B6</color>
+    <color name="last_line">#E3E3E3</color>
+
 </resources>

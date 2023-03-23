@@ -286,7 +286,7 @@
                 android:layout_below="@+id/txt_date3"
                 android:layout_marginRight="5dp"
                 android:layout_marginLeft="5dp"
-                android:background="@color/line" />
+                android:background="@color/last_line" />
 
             <TextView
                 android:id="@+id/state3"
